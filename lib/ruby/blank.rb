@@ -24,9 +24,9 @@ module Enumerable
   #   [1,2].blank?    #=> false
   #   [].blank?       #=> false
   #
-  def blank?
-    empty?
-  end
+  #def blank?
+  #  empty?
+  #end
 
   def present?
     not empty?
